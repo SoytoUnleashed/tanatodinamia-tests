@@ -1,0 +1,62 @@
+body {
+    font-size: 2rem;
+}
+
+tfoot th {
+    transform: scale(1, -1);
+}
+
+tbody th:last-child {
+    transform: scale(1, -1);
+}
+
+table {
+    border-spacing: 0;
+}
+
+table tr { 
+    margin: 0;
+    padding: 0;
+}
+
+table td, table th {
+    border: 3px solid black;
+    margin: 0;
+    padding: .5rem;
+}
+
+table tr:hover {
+    background-color: '#332';
+}
+
+table td {
+    cursor: pointer;
+}
+
+table td:hover {
+    background-color: #AAA;
+}
+
+table td span.plus::before {
+    content: '+';
+}
+
+table td span.minus::before {
+    content: '-';
+}
+
+table td span.blue::before {
+    color: rgba(0, 0, 255);
+}
+table td span.red::before {
+    color: rgba(255, 0, 0);
+}
+
+
+table td.selected {
+    background-color: green;
+}
+
+table td.output {
+    background-color: yellow;
+}
