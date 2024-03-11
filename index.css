@@ -2,6 +2,20 @@ body {
     font-size: 2rem;
 }
 
+.content {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col {
+ justify-content: center;   
+ align-items: center;
+ display: flex;
+ flex-direction: column;
+}
+
 tfoot th {
     transform: scale(1, -1);
 }
@@ -25,15 +39,15 @@ table td, table th {
     padding: .5rem;
 }
 
-table tr:hover {
+table.input tr:hover {
     background-color: '#332';
 }
 
-table td {
+table.input td {
     cursor: pointer;
 }
 
-table td:hover {
+table.input td:hover {
     background-color: #AAA;
 }
 
@@ -53,10 +67,31 @@ table td span.red::before {
 }
 
 
-table td.selected {
+table td.selected, .box.selected::before {
     background-color: green;
 }
 
-table td.output {
+table td.output, .box.output::before {
     background-color: yellow;
 }
+
+table td.bishop, .box.bishop::before {
+    background-color: purple;
+}
+
+table td.light-knight, .box.light-knight::before {
+    background-color: pink;
+}
+
+table td.dark-knight, .box.dark-knight::before {
+    background-color: chocolate;
+}
+
+
+.legend .box::before {
+    content: ' ';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+}
+
