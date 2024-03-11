@@ -196,7 +196,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         resultItem.output.forEach(x => x !== item && x.classList.add('output'));
         resultItem.bishop.forEach(x => x.classList.add('bishop'));
-        resultItem.lightKnight.forEach(x => x.classList.add('light-knoght'));
+        resultItem.lightKnight.forEach(x => x.classList.add('light-knight'));
         resultItem.darkKnight.forEach(x => x.classList.add('dark-knight'));
     }
 
