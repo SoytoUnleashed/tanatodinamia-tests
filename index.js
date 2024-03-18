@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             field: i_A2,
-            output: [o_C4, o_C2],
+            output: [o_C4],
             bishop: [o_D1, o_B1],
             lightKnight: [o_B4, o_D2],
             darkKnight: [o_C3]
@@ -79,35 +79,35 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             field: i_A4,
-            output: [o_C4, o_C2],
+            output: [o_C4],
             bishop: [o_D3, o_B3],
             lightKnight: [o_B2, o_D4],
             darkKnight: [o_C1]
         },
         {
             field: i_B1,
-            output: [o_D3, o_B3],
+            output: [o_D3],
             bishop: [o_B2, o_D4],
             lightKnight: [o_A3],
             darkKnight: [o_D4, o_B2]
         },
         {
             field: i_B2,
-            output: [o_D4, o_B2],
+            output: [o_D4],
             bishop: [o_C1],
             lightKnight: [o_A4, o_A2],
             darkKnight: [o_D3, o_B3]
         },
         {
             field: i_B3,
-            output: [o_D1, o_B1],
+            output: [o_D1],
             bishop: [o_C4, o_C2],
             lightKnight: [o_A1],
             darkKnight: [o_D2, o_B4]
         },
         {
             field: i_B4,
-            output: [o_D2, o_B4],
+            output: [o_D2],
             bishop: [o_C3],
             lightKnight: [o_A2, o_A4],
             darkKnight: [o_D1, o_B1]
@@ -115,13 +115,13 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             field: i_C1,
             output: [o_A3],
-            bishop: [o_B2, o_D4],
+            bishop: [o_B2],
             lightKnight: [o_D3, o_B3],
             darkKnight: [o_A4, o_A2]
         },
         {
             field: i_C2,
-            output: [o_A4, o_A2],
+            output: [o_A4],
             bishop: [o_B1, o_D1],
             lightKnight: [o_D4, o_B2],
             darkKnight: [o_A3]
@@ -129,41 +129,41 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             field: i_C3,
             output: [o_A1],
-            bishop: [o_B4, o_D2],
+            bishop: [o_B4],
             lightKnight: [o_D1, o_B1],
             darkKnight: [o_A2, o_A4]
         },
         {
             field: i_C4,
-            output: [o_A4, o_A2],
+            output: [o_A4],
             bishop: [o_B3, o_D3],
             lightKnight: [o_D2, o_B4],
             darkKnight: [o_A1]
         },
         {
             field: i_D1,
-            output: [o_D3, o_B3],
+            output: [o_D3],
             bishop: [o_A2, o_A4],
             lightKnight: [o_C3],
             darkKnight: [o_B4, o_D2]
         },
         {
             field: i_D2,
-            output: [o_D2, o_B4],
+            output: [o_D2],
             bishop: [o_A1],
             lightKnight: [o_C4, o_C2],
             darkKnight: [o_B3, o_D3]
         },
         {
             field: i_D3,
-            output: [o_D1, o_B1],
+            output: [o_D1],
             bishop: [o_A4, o_A2],
             lightKnight: [o_C1],
             darkKnight: [o_B2, o_D4]
         },
         {
             field: i_D4,
-            output: [o_D4, o_B2],
+            output: [o_D4],
             bishop: [o_A3],
             lightKnight: [o_C2, o_C4],
             darkKnight: [o_B1, o_D1]
